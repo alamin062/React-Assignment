@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial !important;
+}
+.banner_container{
+    background: url('./../../images/banner.png');
+    height: 501px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner_container .banner_content{
+    width: 40%;
+    margin-left: 200px;
+    color: white;
+    text-transform: uppercase;
+}
+.banner_container .banner_content .btn_container a{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: left;
+}
+.banner_container .banner_content .btn_container a:hover{
+    background-color: #4287f5;
+    color: white;
+    transition-duration: 1s;
+}
+.banner_container .banner_content div:nth-child(2){
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+.banner_container .banner_content h1{
+   font-size: 50px;
+   text-align: left;
+}
+.banner_container .banner_content p{
+    text-align: left;
+ }
+.about_content{
+    font-family: Montserrat, Arial !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.about_content h2{
+   padding-bottom: 30px;
+}
+.about_content h4{
+    margin-bottom: 50px;
+    line-height: 1.6em;
+ }
+ .about_content p{
+    line-height: 1.6em;
+ }
+ .about_content div:nth-child(2){
+     margin-bottom: 40px;
+     padding-bottom: 15px;
+     width   : 100%;  
+    position: relative;
+    z-index : 1;
+ }
+ .about_content div:nth-child(2)::after{
+    content : "";
+    position: absolute;
+    right: 41%;
+    left: 41%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 18%;
+    border-bottom:5px solid orange;
+}
+
+ .about_content .btn_container{
+    margin-top: 50px;
+ }
+ .about_content .btn_container a{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ .about_content .btn_container a:hover{
+    background-color: #4287f5;
+    color: white;
+    transition-duration: 1s;
+ }
